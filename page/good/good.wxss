@@ -1,6 +1,23 @@
-page{font-family: "微软雅黑";padding-bottom:100rpx}
-.clear{clear:both;}
-.header{position: fixed;display: -webkit-flex;left: 0;top: 0;width: 100%;padding: 0;box-sizing: border-box;z-index: 1;background: #fff;height: 80rpx;line-height: 80rpx;}
+page{
+  font-family: "微软雅黑";
+  padding-bottom:100rpx
+  }
+.clear{
+  clear:both;
+  }
+.header{
+  position: fixed;
+  display: -webkit-flex;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  z-index: 1;
+  background: #fff;
+  height: 80rpx;
+  line-height: 80rpx;
+  }
 .header{display: -webkit-flex;position: fixed;display: -webkit-flex;left: 0;top: 0;width: 100%;padding: 0;box-sizing: border-box;z-index: 19999999999999999999;background: #fff;height: 80rpx;line-height: 80rpx;}
 .header .filter{width:50%;text-align: center;color:#3c3c3c;font-size: 30rpx;}
 .header .left{color:#f38815;border-bottom:1px solid #f38815}
