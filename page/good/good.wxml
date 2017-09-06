@@ -1,8 +1,12 @@
  <!--goodslist start-->
   <view class="shop">
-    <view class="goods" wx:for="{{goods}}" wx:for-item="i" wx:for-index="id" data-id="{{i.id-1}}" wx:key="id"> 
+    <view class="goods" wx:for="{{goods}}" wx:for-item="i" wx:for-index="id" data-id="{{i.id-1}}" wx:key="id" 
+    data-wd="{{i.id+1000}}">
+     
+<!-- 给for循环添加变量   1 。 data-wd=赋值, 然后for循环块内就可以直接用变量名 data-wd  取得 -->     
       <view class="goodsbox">
-        <image src="{{goods[id].pic}}" data-id="{{i.id-1}}"                                         bindtap="showGoodsDetail">
+        <image src="{{goods[id].pic}}" data-id="{{i.id-1}}" data-wd= "{{i.id+1000}}"                                     
+                     bindtap="showGoodsDetail">
         </image>
         <view class="title1">￥{{goods[id].price}}</view>
         <view class="title2">{{goods[id].name}}</view>

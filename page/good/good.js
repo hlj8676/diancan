@@ -114,11 +114,14 @@ Page({
 
 	//显示隐藏商品详情弹窗
 	showGoodsDetail: function (e) {
-
-		this.setData({
+   
+		this.setData({  
 			showGoodsDetail: !this.data.showGoodsDetail,
 			id: e.target.dataset.id
 		});
+
+
+
 	},
 	hideGoodsDetail: function () {
 		this.setData({
