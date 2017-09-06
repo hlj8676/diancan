@@ -18,11 +18,41 @@ page{
   height: 80rpx;
   line-height: 80rpx;
   }
-.header{display: -webkit-flex;position: fixed;display: -webkit-flex;left: 0;top: 0;width: 100%;padding: 0;box-sizing: border-box;z-index: 19999999999999999999;background: #fff;height: 80rpx;line-height: 80rpx;}
-.header .filter{width:50%;text-align: center;color:#3c3c3c;font-size: 30rpx;}
-.header .left{color:#f38815;border-bottom:1px solid #f38815}
-.shop{position:relative;top:20rpx;padding: 10rpx 0;margin-bottom:200rpx;}
-.shop .goods{width: 50%;float:left;text-align: center;}
+.header{
+  display: -webkit-flex;
+  position: fixed;
+  display: -webkit-flex;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  z-index: 19999999999999999999;
+  background: #fff;
+  height: 80rpx;
+  line-height: 80rpx;
+  }
+.header .filter{
+  width:50%;
+  text-align: center;
+  color:#3c3c3c;
+  font-size: 30rpx;
+  }
+.header .left{
+  color:#f38815;
+  border-bottom:1px solid #f38815
+  }
+.shop{
+  position:relative;
+  top:20rpx;
+  padding: 10rpx 0;
+  margin-bottom:200rpx;
+  }
+.shop .goods{
+  width: 50%;
+  float:left;
+  text-align: center;
+  }
 .shop .goods .goodsbox{background:#fff;width:90%;margin:0 auto;height:400rpx;position:relative;margin-top:30rpx;box-shadow:0 0 5px #eee;}
 .shop .goods image{width: 100%;height:250rpx;}
 .shop .goods .title1{color:#3c3c3c;font-size: 24rpx;height:100rpx;width:100rpx;line-height:65rpx;background:#fff;border-radius:50%;text-align:center;position:absolute;top:200rpx;left:50%;margin-left:-50rpx;}

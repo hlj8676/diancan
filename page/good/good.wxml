@@ -2,7 +2,8 @@
   <view class="shop">
     <view class="goods" wx:for="{{goods}}" wx:for-item="i" wx:for-index="id" data-id="{{i.id-1}}" wx:key="id"> 
       <view class="goodsbox">
-        <image src="{{goods[id].pic}}" data-id="{{i.id-1}}" bindtap="showGoodsDetail"></image>
+        <image src="{{goods[id].pic}}" data-id="{{i.id-1}}"                                         bindtap="showGoodsDetail">
+        </image>
         <view class="title1">￥{{goods[id].price}}</view>
         <view class="title2">{{goods[id].name}}</view>
         <view class="title3 addCart" bindtap="tapAddCart" data-id="{{id}}">选择</view>
