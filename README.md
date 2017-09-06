@@ -1,8 +1,8 @@
-# 微信小程序－DQ(上海七宝嘉茂店)
+# 微信小程序
 
 ### 说明：
 
-实现点餐功能。
+点餐功能。
 
 ### 数据接口:
 
@@ -16,12 +16,8 @@
 
 ### 开发环境：
 
-微信web开发者工具 v0.11.122100
+微信web开发者工具 v1.00.170830
 
 ### 项目截图：
 
 https://www.getweapp.com/project?projectId=58a574f252e1e8733dc567fe
-
-### 感谢：
-
-本项目原始版本由MMMsCheng提供：https://github.com/MMMsCheng/wxapp
