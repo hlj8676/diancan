@@ -62,7 +62,6 @@ page {
   text-align:left;
   font-size:24rpx;
   color:#fff;
-  background:url(/imgs/mjbg.png) repeat-x top left;
   background-size:20rpx auto;
   margin:0 auto;
   padding-top:20rpx;
